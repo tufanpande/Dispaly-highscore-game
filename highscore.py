@@ -24,12 +24,3 @@ if score > highscore:
 else:
     print("You aren't able to beat the high score")
 
-
-# with open("highscore.txt", "r") as f:
-#     highscore = int(f.read())
-# if highscore<score:
-#     with open("highscore.txt", "w") as f:
-#         f.write(f"{score}")
-# else:
-#     print("You aren't able to beat the high score")
-      
